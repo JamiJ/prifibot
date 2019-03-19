@@ -68,7 +68,6 @@ class CommandsCog(commands.Cog):
 	@commands.has_any_role("Admins", "Mods", "raid")
 	@commands.cooldown(1, 900, BucketType.guild) 
 	# Limit how often a command can be used, (num per, seconds, Buckettype.default/user/server/channel)
-	#async def helpcustom(self, ctx):
 	#regions: amsterdam, brazil, eu_central, eu_west, frankfurt, hongkong, japan, london, russia
 	#regions: singapore, southafrica, sydney, us_central, us_east, us_south, us_west, 
 	async def change(self, ctx):
