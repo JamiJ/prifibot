@@ -38,13 +38,11 @@ class CustomCommandsCog(commands.Cog):#discord.Client
 		path = "{}/customfiles/".format(os.path.dirname(__file__))
 		if path == "/":
 			path = ""
-		if guild:
-			with open("{}chatlogs/{}.txt".format(path, guild.name), "a+", encoding="utf-8") as logs:
-				print(to_utf8(str(("{0.created_at} : {0.author.name} : {0.channel} : {0.content} : {0.embeds}".format(message)))), file=logs)
 		try:
 			if message.content.startswith('!'):
-				#channel = message.channel
-				#await channel.send(f'Kirjoitit , {message.content}')
+				if guild:
+					with open("{}chatlogs/{}.txt".format(path, guild.name), "a+", encoding="utf-8") as logs:
+						print(to_utf8(str(("{0.created_at} : {0.author.name} : {0.channel} : {0.content} : {0.embeds}".format(message)))), file=logs)
 				try:
 					server = message.guild.id
 				except AttributeError:
