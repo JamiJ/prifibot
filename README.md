@@ -4,6 +4,7 @@
 
 Hi! I'm updating this source to keep up with the new updates in discord.py rewrite. I'm still learning the basics of coding in python, so this might not be the clearest code that you can see over here. There is way more better ways to code, but i try my best and keep it as clean as possible. 
 
+More info coming later...
 
 # Files
 Adding information under every file soon
