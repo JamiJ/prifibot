@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+
+
+
+18.03.2019
+Will be removed after 60 seconds
+-----------------
+Updated commands: 
+!kissu				| Added delays, so you cant spam it that much anymore.
+!region change		| Command changes server region, to fix voice problems sometimes.
+
+Logging:
+Added logging for messages, this will be changed alot later.
+
+Custom commands:
+You can now use custom commands with ! not $. (Finally fixed this annyoing little thing)
+
+11.03.2019
+Will be removed after 60 seconds
+-----------------
+Updated commands: 
+!command add		| Made the command work whitout hyphen (!command-add...)
+!command remove		| Made the command work whitout hyphen (!command-del...)
+!group add			| Made the command work whitout hyphen (!group-add...)
+!group remove 		| Made the command work whitout hyphen (!group-del...)
+
+Custom commands:
+You can now use custom commands with ! not $. (Finally fixed this annyoing little thing)
+
+07.03.2019
+Will be removed after 60 seconds
+-----------------
+Updated commands 
+!update			| Changed the command to show ingame updates and community updates for Old School Runescape game.
+
+22.02.2019
+Will be removed after 60 seconds
+-----------------
+Updated commands 
+!group-add		| Create groups with !group-add test. Automatic group adding with file checking
+!group-del 		| Remove groups with !group-del test. Automatic group removing with file checking
+!join			| Join groups with !join csgo
+
+22.02.2019
+Päivitty komennot !group-add !group-del ja !join
+Komennot lisäävät ryhmiä ja poistavat ryhmiä suoraan isoillakirjaimilla, vaikka kirjottaisi ne pienellä tai sekaisin isoa ja pientä.
+Myös liittymis komento !join, lisää sinut ryhmään mikä on isoillakirjaimilla, vaikka kirjoittaisit sen pienellä tai sekaisin.
+
+
+18.01.2019
+Päivitetty komento !wiki, sekä !update
+!update hakee oldschool.runescape.com sivuilta viimisimmän päivityksen
+!wiki hakee oldschool.runescape.wiki sivuilta hakusanoilla, haettavan linkin ja postaa sen tietylle kanavalle. 
+Mikäli käytättäjä ei tiedä tarkkaa nimeä, postaa botti 5 lähellä olevaa vaihtoehtoa
+Luotu commands.txt tiedosto, missä kaikki komennot kirjoitettu.
+Luoto help.txt tiedosto, mihin kirjoitettu apuja botin käyttöön.
+

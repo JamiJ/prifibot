@@ -1,0 +1,22 @@
+----- Info about the run.sh -----
+run.sh runs the main.py file that starts the bot. It excecutable, and it's found at systemctl
+so it's easier to start & stop & restart 
+
+----- Info about the main.py -----
+main.py is the main file as it's named. It has all the information to get bot running and which prefix
+does the bot answer to.
+
+You have to include all the cogs inside here, if you have extended the bot to the other cogs.
+
+
+----- Info about the cogs/commands.py -----
+commands.py contains all the main commands that i have coded into it.
+
+In commands async def "command" gives the command name,
+unless it's not chosen at @commands.command(name='1', aliases=['2')
+print is writed to console
+await ctx.send(XXX) sends message to the channel, that the user gives this command
+
+
+----- Info about the cogs/owner.py -----
+owner.py contains all the default informations that have been given from https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be

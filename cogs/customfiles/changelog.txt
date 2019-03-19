@@ -1,0 +1,12 @@
+18.03.2019
+Will be removed after 60 seconds
+-----------------
+Updated commands: 
+!kissu				| Added delays, so you cant spam it that much anymore.
+!region change		| Command changes server region, to fix voice problems sometimes.
+
+Logging:
+Added logging for messages, this will be changed alot later.
+
+Custom commands:
+You can now use custom commands with ! not $. (Finally fixed this annyoing little thing)

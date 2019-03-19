@@ -1,0 +1,20 @@
+
+Virheluokka	Selite
+ZeroDivisionError	Nollalla jakaminen aiheuttaa tämän virheen.
+AttributeError		Metodien ja jäsenfunktioiden käyttöön liittyvät virheet.
+ImportError			Moduulin sisällyttämiseen liittyvät virheet.
+NameError			Viittaukset muuttujiin, joita ei ole olemassa.
+TypeError			Muuttujien tyyppeihin liittyvät virheet.
+ValueError			Muuttujien arvoihin liittyvät virheet.
+IOError				Tiedoston käsittelyssä sattuneet virheet
+IndexError			Ottaa kiinni virheet, joissa viitataan sarjallisen muuttujan kuten listan ulkopuolelle.
+Exception			Yleisluokka, ottaa kiinni kaikki perusvirheet
+UnboundLocalError	Muuttujan arvojen yhteensopivuusvirheet
+
+Taulukko 6.2 Pythonin tavallisimmat virheluokat
+
+Varoitusluokka	Selite
+DeprecationWarning	Ohjelma käyttää rakennetta, joka tulee lähiaikoina poistumaan kielen syntaksista. Esimerkiksi Python 2:n tyylinen %-muotoilu.
+SyntaxWarning		Lähdekoodin rakenteessa on epämääräisiä rakenteita.
+RuntimeWarning		Ajettu ohjelma toimii epämääräisesti.
+FutureWarning		Ohjelma käyttää rakennetta, jonka syntaksi tulee lähiaikoina muuttumaan.

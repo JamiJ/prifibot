@@ -1,0 +1,56 @@
+{
+    "123": {
+        "test": {
+            "group": "test"
+        }
+    },
+    "517775369038725124": {
+        "ow": {
+            "group": "ow"
+        },
+        "siege": {
+            "group": "siege"
+        },
+        "osrs": {
+            "group": "osrs"
+        },
+        "admins": {
+            "group": "admins"
+        },
+        "mods": {
+            "group": "mods"
+        },
+        "halojata": {
+            "group": "halojata"
+        },
+        "testi": {
+            "group": "testi"
+        },
+        "apex": {
+            "group": "apex"
+        },
+        "owner": {
+            "group": "owner"
+        },
+        "HELOUSTA": {
+            "group": "HELOUSTA"
+        },
+        "HAEUI": {
+            "group": "HAEUI"
+        }
+    },
+    "236863812651843584": {
+        "APEX": {
+            "group": "APEX"
+        },
+        "OW": {
+            "group": "OW"
+        },
+        "SIEGE": {
+            "group": "SIEGE"
+        },
+        "CSGO": {
+            "group": "CSGO"
+        }
+    }
+}

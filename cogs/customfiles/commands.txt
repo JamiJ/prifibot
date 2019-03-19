@@ -1,0 +1,30 @@
+Will be removed after 60 seconds
+Going to be embedded better later
+--------------------------------
+!command add| To create custom commands
+!command remove| To remove custom commands
+!group add	| To create new groups
+!group remove | To remove bot created groups
+!help		| General help
+!help custom| Open help for custom commands
+!info		| Shows your join date
+!join 		| Join groups with !join csgo
+!kruunu		| Pastes users name and adds crown behind it
+!miekka		| Pastes users name and adds pickaxe behind it
+!patchnotes | Shows bot's latest changes
+!region change | Changes servers region (eu-west, eu-central, russia)
+!update(osrs) | Pastes latest updates from osrs.game website
+!wiki(osrs)	| Pastes link to wiki page that user has searched for 
+--------------------------------
+
+Custom commands are not added here automatically (yet)
+--------------------------------
+Admins & Mods can create custom commands with !command add test "text"
+They can also remove those commands with !command remove test
+
+
+Bot owner commands
+--------------------------------
+!load		| Loads new cogs, wich are found in 'cogs/' folder
+!reload		| Reloads cog that user has chosen (!reload cogs.commands)
+!unload		| Unloads cog that user has chosen (!unload cogs.commands)
